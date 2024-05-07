@@ -1,0 +1,15 @@
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55px;
+}
+.icon {
+  width: 30px;
+  cursor: pointer;
+}
+.icon-text {
+  font-size: 0.8em;
+  color: grey;
+  font-weight: bold;
+}

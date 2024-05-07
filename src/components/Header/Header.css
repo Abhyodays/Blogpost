@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.brand{
+    color: #fff;
+    font-size: 2em;
+}

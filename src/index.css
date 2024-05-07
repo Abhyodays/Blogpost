@@ -1,0 +1,51 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.btn-black {
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  min-width: 70px;
+}
+.btn-black:hover {
+  background-color: #4f4f4f;
+  color: #fff;
+}
+.post-card {
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+  justify-content: space-between;
+}
+.post-form {
+  width: 600px;
+}
+label {
+  font-size: 1.1em;
+}
+.btn-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.return {
+  position: absolute;
+  left: 20px;
+}
+@media screen and (max-width: 720px) {
+  .post-card {
+    width: auto;
+  }
+  .post-form {
+    width: 100%;
+  }
+}

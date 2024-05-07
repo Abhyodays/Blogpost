@@ -1,0 +1,26 @@
+.post {
+  width: 900px;
+}
+.post-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.post-control {
+  display: flex;
+}
+.category {
+  color: grey;
+  font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+  .post {
+    width: 100%;
+  }
+  .post-head {
+    flex-direction: column;
+  }
+  .post-control {
+    justify-content: flex-end;
+  }
+}

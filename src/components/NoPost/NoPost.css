@@ -1,0 +1,8 @@
+.no-post{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.no-post-text{
+    font-weight: normal;
+}
